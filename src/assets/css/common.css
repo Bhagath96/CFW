@@ -1,0 +1,237 @@
+@import '~@mdi/font/css/materialdesignicons.css';
+
+.ReactBreadcrumbsLight {
+
+    background-color: rgba(255, 255, 255,0) !important;
+    color: #039123 !important;
+}
+
+.ReactBreadcrumbsLight-Link {
+    color: black !important;
+}
+
+.ReactBreadcrumbsLight-Link_current {
+    color:#039123 !important;
+    font-size: medium;
+}
+
+.picky__dropdown {
+    position: unset !important;
+}
+.muiAppBar-root{
+  overflow-y:visible !important;
+}
+/* .MuiList-root.makeStyles-appMenu-27{
+    width: 100%;
+    height: 66vh !important;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
+.MuiList-root.makeStyles-appMenu-27::-webkit-scrollbar {
+    display: none;
+  } */
+  /* .scroll_content {
+    position: relative;
+    width: 400px;
+    height: 414px;
+    top: -17px;
+    padding: 20px 10px 20px 10px;
+    overflow-y: auto;
+} */
+*{
+  /* for windows mozilla scroll bar */
+  scrollbar-color: #888 #f1f1f1;
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* .MuiButton-label :hover{
+    color: black;
+} */
+* :focus{
+outline: none;
+}
+.picky {
+    min-width: 120px;
+}
+#picky-dashboard.picky {
+    min-width: 100%;
+}
+#picky-dashboard__button__button.picky__input {
+    border-bottom:2px solid grey !important;
+}
+#picky-dashboard__button__button.picky__input:hover {
+cursor: pointer;
+}
+#picky-dashboard__button__button.picky__input::after {
+  color:grey !important;
+}
+.picky__input {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom:1px solid black !important;
+    height:32px !important;
+        overflow: hidden;
+    line-height: 22px;
+}
+.picky__input::after{
+  right:1px
+}
+.customPicky label {
+    transform: translate(0, 1.5px) scale(0.75) !important;
+    transform-origin: top left !important;
+    text-transform: capitalize;
+    color: #a2a2a2;
+}
+#picky__button__button span{
+    color:black ;
+    font-size: medium !important;
+    margin-right: 8px;
+}
+#picky-dashboard__button__button span{
+    color:grey !important;
+  }
+.customPicky span{
+    color:black !important;
+}
+.disabledPicky span{
+  color: wheat;
+}
+#picky-dashboard-list.picky__dropdown{
+  max-height:200px !important;
+}
+.picky__dropdown {
+    position: absolute !important;
+    z-index: 999 !important;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.picky__dropdown .option {
+    border-radius: 10px;
+    margin-bottom: 3px;
+ }
+
+.picky__dropdown::-webkit-scrollbar {
+    display: none;
+}
+.picky__dropdown .option:focus, .picky__dropdown li:focus {
+    outline: none !important;
+}
+
+.addButton {
+background-color: none;
+}
+
+.MuiGrid-grid-xs-4 > ._loading_overlay_wrapper{
+    margin-bottom: 0 !important;
+}
+
+.poweredby {
+    display: none !important;
+/*warning notification padding */
+}
+.Notification__content___2i_Va {
+      padding: 10px;
+}
+
+
+.MuiInput-underline:after {
+    border-color: black !important;
+}
+
+.MuiInputLabel-shrink{
+    color: black;
+}
+
+._loading_overlay_wrapper{
+  width:100% !important;
+}
+
+.error {
+    color: 'red'
+}
+
+.jit-row {
+  overflow: hidden;
+}
+.jit-col-1 {
+    width: calc(100% / 12);
+    float: left;
+  }
+  .jit-col-2 {
+    width: calc(100% / 6);
+    float: left;
+  }
+.jit-form-inline {
+  display: flex;
+  flex-direction: row;
+}
+.jit-form-control {
+  margin: 0 .2rem;
+}
+.jit-form-check-label {
+  padding-left: .4rem;
+}
+
+/* .my-vertical-cron .c-host {
+    display: flex;
+    flex-direction: row;
+    
+    .c-tabs {
+      flex-direction: column;
+      border: 0;
+      border-right: 1px solid #ccc;
+      .c-tab {
+        text-align: left;
+        border: 0;
+        border-radius: 0;
+      }
+    }
+    .c-tab-content {
+      padding-top: .5rem;
+      padding-left: 1rem;
+    }
+  } */
+  .pickySelect{
+    color: grey;
+   background-color:#EBEBE4;
+   /* cursor: not-allowed; */
+  }
+  .grey .picky__placeholder {
+    color: rgba(0,0,0,0.2);
+  }
+   
+
+  /* Basic Config fields */
+  .fieldContainer{
+    padding: 8px;
+  }
+
+.diff-code-insert .space .diff-code-edit {
+    background-color: blue;
+}
+
+.diff-code-delete .space .diff-code-edit {
+    background-color:orange;
+}
+.MuiAvatar-img {
+  object-fit: fill !important;
+}

@@ -1,0 +1,17 @@
+{
+    "color-basic-100": "#e6feec",
+    "color-basic-200": "#b4fdc5",
+    "color-basic-300": "#82fc9f",
+    "color-basic-400": "#50fb78",
+    "color-basic-500": "#1efa51",
+    "color-basic-600": "#05e138",
+    "color-basic-700": "#04af2c",
+    "color-basic-800": "#037d1f",
+    "color-basic-900": "#024b13",
+    "color-basic-transparent-100": "rgba(3, 145, 35, 0.08)",
+    "color-basic-transparent-200": "rgba(3, 145, 35, 0.16)",
+    "color-basic-transparent-300": "rgba(3, 145, 35, 0.24)",
+    "color-basic-transparent-400": "rgba(3, 145, 35, 0.32)",
+    "color-basic-transparent-500": "rgba(3, 145, 35, 0.4)",
+    "color-basic-transparent-600": "rgba(3, 145, 35, 0.48)"
+}
